@@ -26,7 +26,7 @@
                 <div class="row text-center">
                     <div class="col-6">
                         <div class="form-group">
-                            <label for="">Image de l'Article</label><br>
+                            <label for="">Image de l'article</label><br>
                             <input type="file" name="changeImageArticle">
                         </div>
                         <div class="form-group">

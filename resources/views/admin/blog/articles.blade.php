@@ -69,7 +69,7 @@
                     </div>
                     <div class="col-6">
                         <div class="form-group">
-                            <label for="">Photo Profil</label><br>
+                            <label for="">Photo de Profil</label><br>
                             <input type="file" name="newPhotoProfil">
                         </div>
                         <div class="form-group">

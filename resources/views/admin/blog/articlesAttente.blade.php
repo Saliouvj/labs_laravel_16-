@@ -7,7 +7,7 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header bg-teal">
-                <h5 class="text-dark font-weight-bold">Tous les Articles en Attente</h5>
+                <h5 class="text-dark font-weight-bold">Tous les Articles qui sont en Attente</h5>
             </div>
             <div class="card-body">
                 <table class="table">
