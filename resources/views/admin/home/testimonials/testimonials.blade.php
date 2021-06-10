@@ -26,7 +26,7 @@
                         <label for="">Function</label>
                         <input type="text" name="newFunction" class="form-control w-50 m-auto">
                     </div>
-                    <label for="">Choisis l'Avatar</label>
+                    <label for="">Choisis ton Avatar</label>
                     <div class="form-group form-check">
                         @foreach ($testimonials->unique('avatar') as $item)
                         <input type="radio" name="radAnswer" value="{{$item->avatar}}" />
