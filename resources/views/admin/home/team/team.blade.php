@@ -12,7 +12,7 @@
             <form action="/store-team" method="post">
                 @csrf
                 <div class="text-center">
-                    <label for="">Choisis une image de Team</label>
+                    <label for="">Choisis une image de la Team</label>
                     <div class="form-group form-check">
                         @foreach ($teams->unique('imageTeam') as $item)
                         <input type="radio" name="radAnswer" value="{{$item->imageTeam}}" />
@@ -61,7 +61,7 @@
                 @csrf
                 <div class="text-center">
                     <div class="form-group mt-3">
-                        <label for="">Choisir</label><br>
+                        <label for="">Choisir </label><br>
                         <select name="team_id" class="form-control m-auto" style="width: max-content;">
                             @foreach ($teams as $item)
                             <option value="{{$item->id}}">{{$item->fullName}}</option>
