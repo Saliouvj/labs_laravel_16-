@@ -15,11 +15,12 @@
             });
         }, 1000);
     </script>
+    
     @endif
     <div class="mt-3">
         <div class="card shadow bg-white rounded card-warning w-50 m-auto">
             <div class="card-header">
-                <h3 class="card-title font-weight-bold">Change Link Video</h3>
+                <h3 class="card-title font-weight-bold">Change Lien Video</h3>
             </div>
             <form action="/update-video/{{$videos[0]->id}}" method="post">
                 @csrf
