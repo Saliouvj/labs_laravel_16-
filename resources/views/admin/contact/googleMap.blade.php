@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button type="submit" class="btn bg-warning font-weight-bold">Update</button>
+                <button type="submit" class="btn bg-success font-weight-bold">Update</button>
             </div>
         </form>
     </div>
