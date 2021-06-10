@@ -54,7 +54,7 @@
 				<li class="active"><a href="/contact">{{$item->link4}}</a></li>
 				@endforeach
 				<!-- Authentication Links -->
-				@guest
+				{{-- @guest
 				@if (Route::has('login'))
 				<li class="nav-item">
 					<a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -78,7 +78,7 @@
 						@csrf
 					</form>
 				</li>
-				@endguest
+				@endguest --}}
 			</ul>
 		</nav>
 	</header>
